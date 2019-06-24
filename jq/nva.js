@@ -1,0 +1,1 @@
+$(function(){$(".list1>li").mouseenter(function(){var A=$(this).children(".sub");A.stop();A.slideDown(600)});$(".list1>li").mouseleave(function(){var A=$(this).children(".sub");A.stop();A.slideUp(1000)})});
